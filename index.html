@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
 </head>
 
@@ -51,19 +52,19 @@
         <form>
             <div class="form-group">
                 <label for="Train Name">Train Name</label>
-                <input type="password" class="form-control" id="trainInput">
+                <input type="text" class="form-control" id="trainInput">
             </div>
             <div class="form-group">
                 <label for="Destination">Destination</label>
-                <input type="password" class="form-control" id="destinationInput">
+                <input type="text" class="form-control" id="destinationInput">
             </div>
             <div class="form-group">
                 <label for="First Train Time (HH:mm-military time)">First Train Time (HH:mm-military time)</label>
-                <input type="password" class="form-control" id="firstInput">
+                <input type="text" class="form-control" id="firstTrainInput">
             </div>
             <div class="form-group">
                 <label for="Frequency">Frequency (min)</label>
-                <input type="password" class="form-control" id="frequencyInput">
+                <input type="text" class="form-control" id="frequencyInput">
             </div>
 
             <button type="submit" class="btn btn-primary" id="sub-btn">Submit</button>
