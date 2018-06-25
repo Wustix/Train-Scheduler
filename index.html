@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TrainScheduleHW</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script> -->
+
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid" id="head-jumbo">
+        <div class="container">
+            <h1 class="display-4">All Aboard The Firebase Train!</h1>
+            <p class="lead">Chugga-chugga, Choo-Choo</p>
+            <p id="extra">(Don't forget your brain at the station!)</p>
+        </div>
+    </div>
+    <div class="card" id="main-card">
+        <div class="card-header">
+            Current Train Schedule
+        </div>
+        <table class="table" id="head-table">
+            <thead>
+                <tr>
+                    <th scope="col">Train Name</th>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Frequency (min)</th>
+                    <th scope="col">Next Arrival</th>
+                    <th scope="col">Minutes Away</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Reading Railroad Express</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>plahlder</td>
+                </tr>
+                <tr>
+                    <th scope="row">Chitty-Chitty Bang-Bang</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td>plahlder</td>
+                </tr>
+                <tr>
+                    <th scope="row">Hogwarts Express</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                    <td>plahlder</td>
+                </tr>
+                <tr>
+                    <th scope="row">Canadian Caboose</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                    <td>plahlder</td>
+                </tr>
+                <tr>
+                    <th scope="row">Santa-Fe Railways</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                    <td>plahlder</td>
+                </tr>
+                <tr>
+                    <th scope="row">Submarine Subways</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                    <td>plahlder</td>
+                </tr>
+                <tr>
+                    <th scope="row">Kansas Comet</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                    <td>plahlder</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="card" id="main-card">
+        <div class="card-header">
+            Add Train
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Train Name</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Destination</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">First Train Time (HH:mm-military time)</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Frequency (min)</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="sub-btn">Submit</button>
+        </form>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript " src="./assets/javascript/trainjav.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "
+        crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T "
+        crossorigin="anonymous "></script>
+</body>
+
+</html>

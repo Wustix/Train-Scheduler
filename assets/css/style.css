@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+} 
+#head-jumbo {
+    max-width: 1400px;
+    margin: auto;
+}
+#head-table {
+    
+}
+#main-card {
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#main-head {
+    background-color: grey;
+    width: 1400px;
+}
+.card-header {
+    background-color: grey;
+}
+.form-group {
+    margin: 10px 15px 0px 15px;
+}
+#sub-btn {
+    margin: 15px 0px 15px 0px;
+}
+.display-4,
+.lead,
+#extra {
+    text-align: center;
+    font-family: 'Patua One', cursive, Times, Times New Roman, serif;
+    
+}
