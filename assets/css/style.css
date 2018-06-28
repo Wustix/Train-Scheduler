@@ -1,12 +1,20 @@
 * {
     box-sizing: border-box;
+}
+body {
+    background-image: url(../images/upfeathers/upfeathers.png);
 } 
 #head-jumbo {
     max-width: 1400px;
     margin: auto;
+    background-image: url(../images/Steam-Train.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-#head-table {
-    
+#jumbo-textground {
+    background: rgba(255, 255, 255, 0.5);
+    width: 550px;
 }
 #main-card {
     max-width: 1400px;
@@ -14,12 +22,9 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
-#main-head {
-    background-color: grey;
-    width: 1400px;
-}
 .card-header {
-    background-color: grey;
+    background-color: blue;
+    color: white;
 }
 .form-group {
     margin: 10px 15px 0px 15px;
@@ -32,5 +37,5 @@
 #extra {
     text-align: center;
     font-family: 'Patua One', cursive, Times, Times New Roman, serif;
-    
+    font-weight: bold;    
 }
